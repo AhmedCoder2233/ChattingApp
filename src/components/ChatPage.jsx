@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Send, Paperclip, Edit2, Trash2, Check, X, User, Circle } from "lucide-react";
 
-const API_URL = "https://proxy-ten-silk-46.vercel.app/api/proxy";
-const WS_URL = "ws://proxy-ten-silk-46.vercel.app/api/proxy/ws";
+const API_URL = "https://api.thebugging.com/cors-proxy?url=https://huggingface.co/spaces/AhmedKing241/Backend";
+const WS_URL = "ws://api.thebugging.com/cors-proxy?url=https://huggingface.co/spaces/AhmedKing241/Backend/ws";
 
 // Simple debounce utility to prevent rapid API calls
 const debounce = (func, wait) => {
@@ -993,4 +993,5 @@ const ChatPage = () => {
 
 
 export default ChatPage;
+
 
