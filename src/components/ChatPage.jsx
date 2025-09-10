@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Send, Paperclip, Edit2, Trash2, Check, X, User, Circle } from "lucide-react";
 
-const API_URL = "http://127.0.0.1:8000";
-const WS_URL = "ws://127.0.0.1:8000/ws";
+const API_URL = "https://huggingface.co/spaces/AhmedKing241/Backend";
+const WS_URL = "ws://huggingface.co/spaces/AhmedKing241/Backend/ws";
 
 // Simple debounce utility to prevent rapid API calls
 const debounce = (func, wait) => {
@@ -990,5 +990,6 @@ const ChatPage = () => {
     </div>
   );
 };
+
 
 export default ChatPage;
