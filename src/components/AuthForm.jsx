@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://huggingface.co/spaces/AhmedKing241/Backend";
 
 const AuthPage = () => {
   const navigate = useNavigate();
@@ -119,3 +119,4 @@ const AuthPage = () => {
 };
 
 export default AuthPage;
+
