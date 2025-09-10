@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "https://proxy-ten-silk-46.vercel.app/api/proxy";
+const API_URL = "https://api.thebugging.com/cors-proxy?url=https://huggingface.co/spaces/AhmedKing241/Backend";
 
 const AuthPage = () => {
   const navigate = useNavigate();
@@ -119,5 +119,6 @@ const AuthPage = () => {
 };
 
 export default AuthPage;
+
 
 
